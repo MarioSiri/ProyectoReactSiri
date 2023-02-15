@@ -1,0 +1,11 @@
+.contenedorCarrito{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.numCarrito{
+    color: blue;
+    font-size: 25px;
+}
