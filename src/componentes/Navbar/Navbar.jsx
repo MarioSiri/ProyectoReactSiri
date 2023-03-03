@@ -4,14 +4,14 @@ import './Navbar.css';
 
 const Navbar = () => {
 	return (
-		<nav class="navbar navbar-expand-sm navbar-light">
-			<div class="container-fluid">
+		<nav className="navbar navbar-expand-sm navbar-light">
+			<div className="container-fluid">
 				<div>
 					<p className='tituloNav'>FAKE STORE</p>
 					
 				</div>
 				<button
-					class="navbar-toggler"
+					className="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent"
@@ -19,27 +19,27 @@ const Navbar = () => {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span class="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page">
+				<div className="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+						<li className="nav-item">
+							<a className="nav-link active" aria-current="page">
 								HOME
 							</a>
 						</li>
-						<li class="nav-item">
+						<li className="nav-item">
 							<a
-								class="nav-link active"
+								className="nav-link active"
 								aria-current="page"
 								
 							>
 								PRODUCTOS
 							</a>
 						</li>
-						<li class="nav-item">
+						<li className="nav-item">
 							<a
-								class="nav-link active"
+								className="nav-link active"
 								aria-current="page"
 								
 							>

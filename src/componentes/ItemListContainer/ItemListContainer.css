@@ -6,6 +6,13 @@
     min-height: 200px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.containerCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
