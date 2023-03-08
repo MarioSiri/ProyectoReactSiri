@@ -5,8 +5,8 @@
     min-width: 300px;
     min-height: 200px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
 }

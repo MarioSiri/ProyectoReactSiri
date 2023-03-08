@@ -1,13 +1,14 @@
 import React from 'react';
 import CartWidget from '../CartWidget/CartWidget';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-sm navbar-light">
 			<div className="container-fluid">
 				<div>
-					<p className='tituloNav'>FAKE STORE</p>
+					<Link to="/" className='tituloNav'>FAKE STORE</Link>
 					
 				</div>
 				<button
@@ -24,27 +25,36 @@ const Navbar = () => {
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 						<li className="nav-item">
-							<a className="nav-link active" aria-current="page">
+							<Link to="/" className="nav-link active" aria-current="page">
 								HOME
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a
+							<Link to="/categoria/auto"
 								className="nav-link active"
 								aria-current="page"
 								
 							>
-								PRODUCTOS
-							</a>
+								AUTOS
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a
+							<Link to="/categoria/camioneta"
+								className="nav-link active"
+								aria-current="page"
+								
+							>
+								CAMIONETAS
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link to="/contact"
 								className="nav-link active"
 								aria-current="page"
 								
 							>
 								CONTACTO
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
