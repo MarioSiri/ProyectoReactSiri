@@ -1,10 +1,10 @@
-.tituloNav{
-    color: rgb(162, 52, 52);
-    font-size: x-large;
-    font-weight: 600;
+.tituloNav {
+	color: rgb(162, 52, 52);
+	font-size: x-large;
+	font-weight: 600;
 }
 
-.navbar{
-    background-color: lightgreen;
-    padding: 20px;
+.navbar {
+	background-color: lightgreen;
+	padding: 20px;
 }

@@ -1,0 +1,30 @@
+.carrito {
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightseagreen;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+
+.contenedorForm{
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightseagreen;
+    border-radius: 20px;
+
+}
+h4{
+    color: rebeccapurple;
+}
+.listaCarrito {
+    padding: 15px;
+    border: 1px solid lightseagreen;
+    margin: 5px;
+    
+}

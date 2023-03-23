@@ -8,8 +8,9 @@ const Navbar = () => {
 		<nav className="navbar navbar-expand-sm navbar-light">
 			<div className="container-fluid">
 				<div>
-					<Link to="/" className='tituloNav'>FAKE STORE</Link>
-					
+					<Link to="/" className="tituloNav">
+						FAKE CAR STORE
+					</Link>
 				</div>
 				<button
 					className="navbar-toggler"
@@ -30,28 +31,28 @@ const Navbar = () => {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/categoria/auto"
+							<Link
+								to="/categoria/auto"
 								className="nav-link active"
 								aria-current="page"
-								
 							>
 								AUTOS
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/categoria/camioneta"
+							<Link
+								to="/categoria/camioneta"
 								className="nav-link active"
 								aria-current="page"
-								
 							>
 								CAMIONETAS
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/contact"
+							<Link
+								to="/contact"
 								className="nav-link active"
 								aria-current="page"
-								
 							>
 								CONTACTO
 							</Link>
